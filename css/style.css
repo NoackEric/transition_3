@@ -1,0 +1,23 @@
+.back{
+    height: 70vh;
+    width: 50vw;
+    margin: 10vh 25%;
+    position: absolute;
+    overflow-y: hidden;
+}
+.hover{
+    height: 70vh;
+    width: 50vw;
+    background: rgba(103, 101, 101, 0.516);
+    transition: bottom .5s ease-in;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lime;
+    font-size: 5em;
+    bottom: -100%;
+}
+.back:hover .hover{
+    bottom: 0%;
+}
