@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    align-items: baseline;
+}
+.groß{
+    height: 300px;
+    width: 300px;
+    background: coral;
+    border-radius: 90%;
+    transition: margin-left 2s ease-in;
+}
+.groß:active{
+    margin-left: 9em;
+    transition: margin-left 1s ease-in;
+}
+.groß:active .klein{
+    margin-left: 69.8%;
+    transition-delay: 1s;
+}
+
+.klein{
+    height: 150px;
+    width: 150px;
+    background: rgb(255, 45, 45);
+    border-radius: 90%;
+    position: absolute;
+    top: 16%;
+    left: 22.45%;
+    transition: margin-left 2s ease-in-out;
+    transition-timing-function: linear;
+}
